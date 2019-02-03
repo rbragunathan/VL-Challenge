@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNumber"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="148dp" />
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/addNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AddNumber"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        tools:layout_editor_absoluteX="229dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+</LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+</LinearLayout>
